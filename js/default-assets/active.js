@@ -460,8 +460,4 @@
       return i * 250;
     },
   });
-  document.addEventListener('click', () => {
-    const video = document.querySelector('video');
-    video.play().catch(error => console.error('Error playing video:', error));
-  });
 })(jQuery);

@@ -1,15 +1,15 @@
-html {
+/* html {
   min-height: 100vh !important;
   overscroll-behavior: none !important;
   overflow-y: auto !important;
   overflow-x:hidden;
-}
+} */
 @media (max-width: 991px) {
   /*home-page-section-our-project-text*/
-  .our-project-text {
+  /* .our-project-text {
     width: 90% !important;
     font-size: 12px !important;
-  }
+  } */
   /*home-page-section-our-project-text*/
   /*project-page*/ 
     .main-projects.project-page {

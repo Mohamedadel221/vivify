@@ -24,6 +24,7 @@
     "magnific-popup": "^1.1.0",
     "owl.carousel2": "^2.2.1",
     "popper.js": "^1.14.5",
+    "sass": "^1.83.1",
     "wowjs": "^1.1.3"
   }
 }

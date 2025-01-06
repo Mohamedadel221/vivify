@@ -1,0 +1,108 @@
+html {
+  min-height: 100vh !important;
+  overscroll-behavior: none !important;
+  overflow-y: auto !important;
+  overflow-x: hidden;
+}
+
+@media (max-width: 991px) {
+  /*home-page-section-our-project-text*/
+  .our-project-text {
+    width: 90% !important;
+    font-size: 12px !important;
+  }
+  /*home-page-section-our-project-text*/
+  /*project-page*/
+  .main-projects.project-page {
+    padding-top: 94px;
+    padding-bottom: 35px;
+  }
+  /*project-page*/
+  /*about-us*/
+  .about-us {
+    padding-top: 100px;
+    padding-bottom: 16px;
+  }
+  /*about-us*/
+  /*why-us*/
+  .why-us {
+    padding-top: 60px;
+    padding-bottom: 10px;
+  }
+  /*why-us*/
+}
+/*center text-slide*/
+@media (max-width: 767px) {
+  .slider-text {
+    top: 25% !important;
+  }
+  /*center text-slide*/
+  /*coustmize navbar-logo*/
+  .nav-brand svg {
+    width: 150px;
+    margin-left: -30px;
+  }
+  /*coustmize navbar-logo*/
+  .classy-navbar-toggler .navbarToggler {
+    margin-right: -14px;
+  }
+  .contact-pages {
+    align-items: start !important;
+  }
+}
+/*show and hide slider-content mopile and desktop*/
+.slider-contact-mopile {
+  position: absolute;
+  bottom: 2%;
+  left: 5%;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  padding: 0 2%;
+  letter-spacing: 1px;
+}
+.slider-contact-mopile .icons-holder {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (max-width: 591px) {
+  .slider-contact {
+    display: none;
+  }
+}
+@media (min-width: 592px) {
+  .slider-contact-mopile {
+    display: none;
+  }
+}
+/*show and hide slider-content mopile and desktop*/
+/*content about-us*/
+.about-us-content h2 {
+  font-size: 38px !important;
+}
+
+/*content about-us*/
+/*section top footer*/
+.cta-content h2 {
+  font-family: "sans-serif" !important;
+}
+.cta-content h6 {
+  font-size: 17px;
+}
+
+@media only screen and (max-width: 767px) {
+  .cta-content h2 {
+    font-size: 20px;
+  }
+}
+/*section top footer*/
+/*spacing about us*/
+.mb {
+  margin-bottom: 15px;
+}
+
+/*spacing about us*//*# sourceMappingURL=coustmize.css.map */
