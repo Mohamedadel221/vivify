@@ -1,0 +1,65 @@
+/* :: 19.0 Contact Area */
+.contact-background {
+  background-color: $primary !important;
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+  .contact-us-wrapper {
+    padding-top: 150px;
+    .contact-us {
+      position: relative;
+      .contact-bg {
+        position: absolute;
+        top: 140px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 70px;
+        z-index: 0;
+        .contact-word {
+          font-size: 12.5vw;
+          font-weight: 600;
+          text-align: center;
+          line-height: 1;
+          text-transform: uppercase;
+          color: #fff;
+          opacity: 0.03;
+          text-shadow: 9px 17px 25px rgba(0, 0, 0, 0.12);
+        }
+      }
+      .contact-content {
+        p {
+          letter-spacing: 1px;
+          opacity: 0.6;
+        }
+      }
+    }
+  }
+  .icons-holder {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .contact-social {
+    p {
+      opacity: 0.6;
+    }
+  }
+}
+@media (min-width: 1800px) {
+  .contact-us-wrapper {
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    p{
+      font-size: 20px;
+    }
+  }
+  .title{
+    font-size: 3.5rem;
+  }
+}

@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "BrutalMilk";
+  src: url("../../fonts/BrutalMilkNo3-Regular.woff2") format("woff2"),
+    url("../../fonts/BrutalMilkNo3-Regular.woff") format("woff"),
+    url("../../fonts/BrutalMilkNo3-Regular.ttf") format("truetype"),
+    url("../../fonts/BrutalMilkNo3-Regular.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "BrutalMilk";
+  src: url("../../fonts/BrutalMilkNo3-Medium.woff2") format("woff2"),
+    url("../../fonts/BrutalMilkNo3-Medium.woff") format("woff"),
+    url("../../fonts/BrutalMilkNo3-Medium.ttf") format("truetype"),
+    url("../../fonts/BrutalMilkNo3-Medium.otf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "BrutalMilk";
+  src: url("../../fonts/BrutalMilkNo3-Semibold.woff2") format("woff2"),
+    url("../../fonts/BrutalMilkNo3-Semibold.woff") format("woff"),
+    url("../../fonts/BrutalMilkNo3-Semibold.ttf") format("truetype"),
+    url("../../fonts/BrutalMilkNo3-Semibold.otf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "BrutalMilk";
+  src: url("../../fonts/BrutalMilkNo3-Bold.woff2") format("woff2"),
+    url("../../fonts/BrutalMilkNo3-Bold.woff") format("woff"),
+    url("../../fonts/BrutalMilkNo3-Bold.ttf") format("truetype"),
+    url("../../fonts/BrutalMilkNo3-Bold.otf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/*********************************************/
+
+
+@font-face {
+  font-family: "BrutalMilkText";
+  src: url("../../fonts/BrutalMilkNo1-Regular.woff2") format("woff2"),
+    url("../../fonts/BrutalMilkNo1-Regular.woff") format("woff"),
+    url("../../fonts/BrutalMilkNo1-Regular.ttf") format("truetype"),
+    url("../../fonts/BrutalMilkNo1-Regular.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "BrutalMilkText";
+  src: url("../../fonts/BrutalMilkNo1-Medium.woff2") format("woff2"),
+    url("../../fonts/BrutalMilkNo1-Medium.woff") format("woff"),
+    url("../../fonts/BrutalMilkNo1-Medium.ttf") format("truetype"),
+    url("../../fonts/BrutalMilkNo1-Medium.otf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "BrutalMilkText";
+  src: url("../../fonts/BrutalMilkNo1-Semibold.woff2") format("woff2"),
+    url("../../fonts/BrutalMilkNo1-Semibold.woff") format("woff"),
+    url("../../fonts/BrutalMilkNo1-Semibold.ttf") format("truetype"),
+    url("../../fonts/BrutalMilkNo1-Semibold.otf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "BrutalMilkText";
+  src: url("../../fonts/BrutalMilkNo1-Bold.woff2") format("woff2"),
+    url("../../fonts/BrutalMilkNo1-Bold.woff") format("woff"),
+    url("../../fonts/BrutalMilkNo1-Bold.ttf") format("truetype"),
+    url("../../fonts/BrutalMilkNo1-Bold.otf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
