@@ -4,6 +4,57 @@ html {
   overflow-y: auto !important;
   overflow-x: hidden;
 }
+/*swiper0button*/
+.swiper-containers {
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: -250px !important;
+    color: #fff !important;
+    &:after {
+      font-size: 33px !important;
+    } 
+}
+}
+.horizontal-item .slider-bg {
+  width:110% !important;
+}
+/*swiper0button*/
+@media (max-width:767px) {
+  .horizontal-item {
+    position: relative;
+    transition: all ease 0.3s;
+    .slider-bg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgb(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 1;
+      visibility:visible !important;
+      transition: all ease 0.3s;
+    }
+    &:hover {
+      .slider-bg {
+        opacity: 1 !important;
+        visibility: visible !important;
+      }
+    }
+  }
+}
+/*spacing*/
+.mb-15 {
+  margin-bottom: 15px;
+}
+.section-padding-0-25 {
+  padding-top: 0 !important;
+  padding-bottom: 25px !important;
+}
+/*spacing */
+
 @media (max-width: 991px) {
   /*home-page-section-our-project-text*/
   .our-project-text {
@@ -38,7 +89,7 @@ html {
   /*center text-slide*/
   /*coustmize navbar-logo*/
   .nav-brand svg {
-    width: 150px;
+    width: 120px;
     margin-left: -30px;
   }
   /*coustmize navbar-logo*/
@@ -102,8 +153,3 @@ html {
   }
 }
 /*section top footer*/
-/*spacing about us*/
-.mb {
-    margin-bottom: 15px;
-}
-/*spacing about us*/
