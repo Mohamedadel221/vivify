@@ -1,5 +1,5 @@
 html, body {
-  overflow: auto !important; /* تأكد أنك لا تستخدم هذه الخاصية */
+  min-height: 100vh;
 }
 @media (max-width: 991px) {
   /*home-page-section-our-project-text*/
@@ -58,12 +58,11 @@ html, body {
   gap: 10px;
   padding: 0 2%;
   letter-spacing: 1px;
-  justify-content: center;
 }
 .slider-contact-mopile .icons-holder {
   display: flex;
   align-items: center;
-  gap: 80px;
+  gap: 20px;
 }
 @media (max-width: 591px) {
   .slider-contact {
