@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+html{
+  overflow: hidden;
+}
 
 body {
   font-family: $fonts;
@@ -24,7 +27,8 @@ body {
     color: #666666;
   }
 }
-html.lenis {
+
+html.lenis, html.lenis body {
   height: auto;
 }
 

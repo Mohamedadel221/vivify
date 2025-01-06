@@ -1,7 +1,8 @@
-html, body {
+html {
   min-height: 100vh !important;
   overscroll-behavior: none !important;
-  overflow: auto !important;
+  overflow-y: auto !important;
+  overflow-x:hidden;
 }
 @media (max-width: 991px) {
   /*home-page-section-our-project-text*/

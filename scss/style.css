@@ -67,6 +67,10 @@ Last Update: Dec 21, 2018
   padding: 0;
 }
 
+html {
+  overflow: hidden;
+}
+
 body {
   font-family: "BrutalMilk";
   font-weight: 400;
@@ -86,7 +90,7 @@ body {
   color: #666666;
 }
 
-html.lenis {
+html.lenis, html.lenis body {
   height: auto;
 }
 
