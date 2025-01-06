@@ -1,3 +1,6 @@
+html, body {
+  overflow: auto !important; /* تأكد أنك لا تستخدم هذه الخاصية */
+}
 @media (max-width: 991px) {
   /*home-page-section-our-project-text*/
   .our-project-text {
