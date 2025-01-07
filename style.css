@@ -90,7 +90,7 @@ body {
   color: #666666;
 }
 
-html.lenis, html.lenis body {
+html.lenis {
   height: auto;
 }
 
@@ -311,6 +311,10 @@ ul li {
 
 .mr-100 {
   margin-right: 100px;
+}
+
+.mb {
+  margin-bottom: 10px;
 }
 
 .mb-15 {
@@ -1341,7 +1345,8 @@ ul li {
     max-width: 720px;
   }
   .our-project-text {
-    width: 100% !important;
+    width: 90% !important;
+    font-size: 13.7px !important;
   }
   #highlight {
     display: none !important;
@@ -1349,7 +1354,7 @@ ul li {
 }
 @media (max-width: 767px) {
   .slider-text {
-    top: 15%;
+    top: 20% !important;
   }
   .slider-contact {
     gap: 17px;
@@ -1473,11 +1478,40 @@ ul li {
   visibility: hidden;
   transition: all ease 0.3s;
 }
+.horizontal-item .slider-bg h4 {
+  position: absolute;
+  bottom: 15%;
+  left: 5%;
+}
 .horizontal-item:hover .slider-bg {
   opacity: 1;
   visibility: visible;
 }
 
+@media (max-width: 767px) {
+  .horizontal-item {
+    position: relative;
+    transition: all ease 0.3s;
+  }
+  .horizontal-item .slider-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    visibility: visible !important;
+    transition: all ease 0.3s;
+  }
+  .horizontal-item:hover .slider-bg {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+}
 .main-projects {
   position: relative;
   padding-top: 200px;
@@ -2119,7 +2153,7 @@ ul li {
   }
 }
 .about-us-content h2 {
-  font-size: 48px;
+  font-size: 35px !important;
   margin-bottom: 15px;
   line-height: 1.3;
 }
@@ -2722,7 +2756,7 @@ ul li {
 }
 @media only screen and (max-width:767px) {
   .cta-content h2 {
-    font-size: 30px;
+    font-size: 20px !important;
   }
 }
 .cta-content h6 {
