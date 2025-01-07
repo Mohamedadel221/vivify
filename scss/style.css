@@ -1435,7 +1435,9 @@ ul li {
   left: 30px;
   bottom: 20px;
   color: #fff;
-  text-transform: uppercase;
+  text-transform: capitalize;
+  font-weight: 400 !important;
+  font-family: "BrutalMilk" !important;
 }
 .horizontal-item .slider-bg .line-two {
   position: absolute;
@@ -1541,11 +1543,13 @@ ul li {
   left: 40px;
   bottom: 20px;
   color: #fff;
-  text-transform: uppercase;
+  text-transform: capitalize;
+  font-family: "BrutalMilk" !important;
+  font-weight: 400 !important;
 }
 .our-projects .project .cover-bg .line-two {
   position: absolute;
-  left: 152px;
+  left: 145px;
   bottom: 29px;
   border-bottom: 2px solid #fff;
   width: 73px;
@@ -1599,6 +1603,18 @@ ul li {
     padding-bottom: 180px;
   }
 }
+/*show-and-hide-desktop-mopile*/
+@media (min-width: 767px) {
+  .our-projects .projects-mopile {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .our-projects .projects-desktop {
+    display: none;
+  }
+}
+/*show-and-hide-desktop-mopile*/
 /* :: 10.0 Testimonial CSS */
 .clients-feedback-area {
   position: relative;

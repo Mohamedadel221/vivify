@@ -128,7 +128,9 @@
       left: 30px;
       bottom: 20px;
       color:#fff;
-      text-transform: uppercase;
+      text-transform:capitalize;
+      font-weight: 400 !important;
+      font-family: "BrutalMilk" !important;
     }
     .line-two {
       position: absolute;
@@ -237,11 +239,13 @@
         left: 40px;
         bottom: 20px;
         color:#fff;
-        text-transform: uppercase;
+        text-transform: capitalize;
+        font-family: "BrutalMilk" !important;
+        font-weight: 400 !important;
       }
       .line-two {
         position: absolute;
-        left: 152px;
+        left: 145px;
         bottom: 29px;
         border-bottom: 2px solid #fff;
         width: 73px;
@@ -303,3 +307,19 @@
     }
   }
 }
+/*show-and-hide-desktop-mopile*/
+@media(min-width:767px) {
+  .our-projects {
+    .projects-mopile {
+    display: none;
+    }
+  }
+}
+@media(max-width:768px) {
+  .our-projects {
+    .projects-desktop {
+    display: none;
+    }
+  }
+}
+/*show-and-hide-desktop-mopile*/
