@@ -1427,7 +1427,7 @@ ul li {
   visibility: visible;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .horizontal-item {
     position: relative;
     transition: all ease 0.3s;
@@ -1511,6 +1511,33 @@ ul li {
 }
 
 @media (max-width: 991px) {
+  .project {
+    position: relative;
+    transition: all ease 0.3s;
+  }
+  .project .cover-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: all ease 0.3s;
+  }
+  .project .cover-bg .cover-text {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+  }
+  .project:hover .cover-bg {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
   .main-projects {
     padding-top: 120px;
     padding-bottom: 20px;
