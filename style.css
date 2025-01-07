@@ -1480,8 +1480,31 @@ ul li {
 }
 .horizontal-item .slider-bg h4 {
   position: absolute;
-  bottom: 15%;
-  left: 5%;
+  bottom: 9%;
+  left: 3%;
+}
+.horizontal-item .slider-bg .line-one {
+  position: absolute;
+  left: 13px;
+  bottom: 29px;
+  border-bottom: 2px solid #fff;
+  width: 10px;
+  height: 30px;
+}
+.horizontal-item .slider-bg .text-lines {
+  position: absolute;
+  left: 30px;
+  bottom: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.horizontal-item .slider-bg .line-two {
+  position: absolute;
+  left: 144px;
+  bottom: 29px;
+  border-bottom: 2px solid #fff;
+  width: 73px;
+  height: 30px;
 }
 .horizontal-item:hover .slider-bg {
   opacity: 1;
@@ -1563,8 +1586,31 @@ ul li {
 }
 .our-projects .project .cover-bg .cover-text {
   position: absolute;
-  left: 50px;
-  bottom: 50px;
+  left: 16px;
+  bottom: 39px;
+}
+.our-projects .project .cover-bg .line-one {
+  position: absolute;
+  left: 22px;
+  bottom: 29px;
+  border-bottom: 2px solid #fff;
+  width: 10px;
+  height: 30px;
+}
+.our-projects .project .cover-bg .text-lines {
+  position: absolute;
+  left: 40px;
+  bottom: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.our-projects .project .cover-bg .line-two {
+  position: absolute;
+  left: 152px;
+  bottom: 29px;
+  border-bottom: 2px solid #fff;
+  width: 73px;
+  height: 30px;
 }
 .our-projects .project:hover .cover-bg {
   opacity: 1;

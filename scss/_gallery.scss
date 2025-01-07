@@ -100,8 +100,8 @@
   .slider-bg {
     h4 {
       position: absolute;
-      bottom: 15%;
-      left: 5%;
+      bottom: 9%;
+      left: 3%;
     }
     position: absolute;
     left: 0;
@@ -115,6 +115,29 @@
     opacity: 0;
     visibility: hidden;
     transition: all ease 0.3s;
+    .line-one {
+      position: absolute;
+      left: 13px;
+      bottom: 29px;
+      border-bottom: 2px solid #fff;
+      width: 10px;
+      height: 30px;
+    }
+    .text-lines {
+      position: absolute;
+      left: 30px;
+      bottom: 20px;
+      color:#fff;
+      text-transform: uppercase;
+    }
+    .line-two {
+      position: absolute;
+      left: 144px;
+      bottom: 29px;
+      border-bottom: 2px solid #fff;
+      width: 73px;
+      height: 30px;
+    }
   }
   &:hover {
     .slider-bg {
@@ -198,8 +221,31 @@
       transition: all ease 0.3s;
       .cover-text {
         position: absolute;
-        left: 50px;
-        bottom: 50px;
+        left: 16px;
+        bottom: 39px;
+      }
+      .line-one {
+        position: absolute;
+        left: 22px;
+        bottom: 29px;
+        border-bottom: 2px solid #fff;
+        width: 10px;
+        height: 30px;
+      }
+      .text-lines {
+        position: absolute;
+        left: 40px;
+        bottom: 20px;
+        color:#fff;
+        text-transform: uppercase;
+      }
+      .line-two {
+        position: absolute;
+        left: 152px;
+        bottom: 29px;
+        border-bottom: 2px solid #fff;
+        width: 73px;
+        height: 30px;
       }
     }
     &:hover {
