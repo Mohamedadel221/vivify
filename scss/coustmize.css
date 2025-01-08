@@ -52,11 +52,18 @@ html {
   }
   /*about-us*/
   /*why-us*/
+  /*why-us*/
+}
+@media (max-width: 991px) and (max-width: 991px) {
+  .about-us-content h2 {
+    display: none !important;
+  }
+}
+@media (max-width: 991px) {
   .why-us {
     padding-top: 60px;
     padding-bottom: 10px;
   }
-  /*why-us*/
 }
 /*center text-slide*/
 @media (max-width: 767px) {
@@ -107,14 +114,6 @@ html {
   }
 }
 /*show and hide slider-content mopile and desktop*/
-/*content about-us*/
-.about-us-content h2 {
-  font-size: 38px !important;
-  font-family: "BrutalMilkText" !important;
-  font-weight: 400;
-}
-
-/*content about-us*/
 /*section top footer*/
 .cta-content h2 {
   font-family: "BrutalMilkText" !important;

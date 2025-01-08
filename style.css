@@ -1544,8 +1544,8 @@ ul li {
 }
 .main-projects {
   position: relative;
-  padding-top: 200px;
-  padding-bottom: 100px;
+  padding-top: 26px;
+  padding-bottom: 0px;
 }
 .main-projects.project-page {
   padding-top: 200px;
@@ -1571,6 +1571,9 @@ ul li {
   color: #000;
   opacity: 0.09;
   text-shadow: 9px 17px 25px rgba(0, 0, 0, 0.12);
+}
+.main-projects h3, .main-projects p {
+  margin-left: 8px;
 }
 
 .our-projects .project {
