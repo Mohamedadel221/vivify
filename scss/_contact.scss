@@ -25,7 +25,7 @@
           line-height: 1;
           text-transform: uppercase;
           color: #fff;
-          opacity: 0.03;
+          opacity: 0.09;
           text-shadow: 9px 17px 25px rgba(0, 0, 0, 0.12);
         }
       }
@@ -33,6 +33,15 @@
         p {
           letter-spacing: 1px;
           opacity: 0.6;
+        }
+      }
+    }
+  }
+  @media(maxi-width:591px){
+     .contact-us-wrapper {
+      .contact-us {
+        .contact-bg {
+          width: 125% !important;
         }
       }
     }

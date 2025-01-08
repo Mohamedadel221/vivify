@@ -208,6 +208,13 @@
     margin-left: 8px;
   }
 }
+@media(max-width:591px) {
+  .main-projects {
+    .project-bg {
+      width:125% !important;
+    }
+  }
+}
 .our-projects {
   .project {
     position: relative;
@@ -329,7 +336,9 @@
 /*show-and-hide-desktop-mopile*/
 .single-footer-widget {
   svg {
-    width: 120px;
-   min-height: 120px;
+    margin: 0 !important;
+  padding: 0 !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
   }
 }

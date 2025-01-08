@@ -1515,6 +1515,11 @@ ul li {
   margin-left: 8px;
 }
 
+@media (max-width: 591px) {
+  .main-projects .project-bg {
+    width: 125% !important;
+  }
+}
 .our-projects .project {
   position: relative;
   transition: all ease 0.3s;
@@ -1624,8 +1629,10 @@ ul li {
 }
 /*show-and-hide-desktop-mopile*/
 .single-footer-widget svg {
-  width: 120px;
-  min-height: 120px;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
 }
 
 /* :: 10.0 Testimonial CSS */
@@ -2025,13 +2032,18 @@ ul li {
   line-height: 1;
   text-transform: uppercase;
   color: #000;
-  opacity: 0.03;
+  opacity: 0.09;
   text-shadow: 9px 17px 25px rgba(0, 0, 0, 0.12);
 }
 .about-us .about-content p {
   letter-spacing: 1px;
 }
 
+@media (max-width: 591px) {
+  .about-us .about-bg {
+    width: 125% !important;
+  }
+}
 .three-collection {
   padding-left: 80px;
   padding-right: 80px;
@@ -3146,12 +3158,17 @@ ul li {
   line-height: 1;
   text-transform: uppercase;
   color: #fff;
-  opacity: 0.03;
+  opacity: 0.09;
   text-shadow: 9px 17px 25px rgba(0, 0, 0, 0.12);
 }
 .contact-background .contact-us-wrapper .contact-us .contact-content p {
   letter-spacing: 1px;
   opacity: 0.6;
+}
+@media (maxi-width: 591px) {
+  .contact-background .contact-us-wrapper .contact-us .contact-bg {
+    width: 125% !important;
+  }
 }
 .contact-background .icons-holder {
   display: flex;

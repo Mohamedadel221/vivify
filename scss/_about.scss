@@ -21,7 +21,7 @@
       line-height: 1;
       text-transform: uppercase;
       color: #000;
-      opacity: 0.03;
+      opacity: 0.09;
       text-shadow: 9px 17px 25px rgba(0, 0, 0, 0.12);
     }
   }
@@ -31,7 +31,13 @@
     }
   }
 }
-
+@media(max-width:591px) {
+  .about-us {
+    .about-bg {
+      width: 125% !important;
+    }
+  }
+}
 .three-collection{
   padding-left: 80px;
   padding-right: 80px;
