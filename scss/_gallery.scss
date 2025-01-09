@@ -102,6 +102,7 @@
       position: absolute;
       bottom: 9%;
       left: 3%;
+      text-transform: capitalize;
     }
     position: absolute;
     left: 0;
@@ -139,7 +140,6 @@
       border-bottom: 2px solid #fff;
       width: 73px;
       height: 30px;
-      background: #000;
     }
   }
   &:hover {
@@ -208,10 +208,10 @@
     margin-left: 8px;
   }
 }
-@media(max-width:591px) {
+@media(max-width:991px) {
   .main-projects {
     .project-bg {
-      width:125% !important;
+     display: none;
     }
   }
 }
@@ -263,11 +263,17 @@
         height: 30px;
       }
     }
+    h4 {
+      text-transform: capitalize;
+    }
     &:hover {
       .cover-bg {
         opacity: 1;
         visibility: visible;
       }
+    }
+    h4 {
+      text-transform: capitalize;
     }
   }
 }

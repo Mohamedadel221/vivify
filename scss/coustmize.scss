@@ -12,11 +12,23 @@ html {
     color: #fff !important;
     &:after {
       font-size: 33px !important;
-    } 
+    }
+  }
 }
+@media (max-width: 767px) {
+  .swiper-containers {
+    .swiper-button-next,
+    .swiper-button-prev {
+      top: -250px !important;
+      color: #fff !important;
+      &:after {
+        font-size: 20px !important;
+      }
+    }
+  }
 }
 .horizontal-item .slider-bg {
-  width:110% !important;
+  width: 110% !important;
 }
 /*swiper0button*/
 /*spacing*/
@@ -39,7 +51,7 @@ html {
   /*project-page*/
   .main-projects.project-page {
     padding-top: 94px;
-    padding-bottom: 35px;
+    padding-bottom: 0px;
   }
   /*project-page*/
   /*about-us*/
@@ -47,7 +59,7 @@ html {
     padding-top: 100px;
     padding-bottom: 16px;
   }
-  @media(max-width:991px) {
+  @media (max-width: 991px) {
     .about-us-content {
       h2 {
         display: none !important;
@@ -129,4 +141,16 @@ html {
     }
   }
 }
+@media (max-width: 591px) {
+  .cta-content {
+    h2 {
+      font-size: 16px !important;
+    }
+  }
+}
 /*section top footer*/
+@media (max-width: 991px) {
+  .contact-bg {
+    display: none !important;
+  }
+}

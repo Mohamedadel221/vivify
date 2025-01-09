@@ -386,6 +386,11 @@ ul li {
   margin-left: -5px 1;
 }
 
+.section-padding-12-0 {
+  padding-top: 12px;
+  padding-bottom: 0;
+}
+
 /* :: 3.0 Preloader CSS */
 .preloader {
   position: fixed;
@@ -524,6 +529,7 @@ ul li {
 
 /* :: 6.0 Buttons CSS */
 .mona-btn {
+  margin-top: -13px !important;
   position: relative;
   z-index: 1;
   min-width: 180px;
@@ -1425,6 +1431,7 @@ ul li {
   position: absolute;
   bottom: 9%;
   left: 3%;
+  text-transform: capitalize;
 }
 .horizontal-item .slider-bg .line-one {
   position: absolute;
@@ -1450,7 +1457,6 @@ ul li {
   border-bottom: 2px solid #fff;
   width: 73px;
   height: 30px;
-  background: #000;
 }
 .horizontal-item:hover .slider-bg {
   opacity: 1;
@@ -1515,9 +1521,9 @@ ul li {
   margin-left: 8px;
 }
 
-@media (max-width: 591px) {
+@media (max-width: 991px) {
   .main-projects .project-bg {
-    width: 125% !important;
+    display: none;
   }
 }
 .our-projects .project {
@@ -1568,9 +1574,15 @@ ul li {
   width: 73px;
   height: 30px;
 }
+.our-projects .project h4 {
+  text-transform: capitalize;
+}
 .our-projects .project:hover .cover-bg {
   opacity: 1;
   visibility: visible;
+}
+.our-projects .project h4 {
+  text-transform: capitalize;
 }
 
 @media (max-width: 991px) {
@@ -2011,8 +2023,8 @@ ul li {
 /* :: 12.0 About CSS */
 .about-us {
   position: relative;
-  padding-top: 220px;
-  padding-bottom: 130px;
+  padding-top: 110px;
+  padding-bottom: 0px;
 }
 .about-us .about-bg {
   position: absolute;
@@ -2039,44 +2051,14 @@ ul li {
   letter-spacing: 1px;
 }
 
-@media (max-width: 591px) {
+@media (max-width: 991px) {
   .about-us .about-bg {
-    width: 125% !important;
+    display: none;
   }
 }
 .three-collection {
   padding-left: 80px;
   padding-right: 80px;
-}
-
-.why-us {
-  position: relative;
-  padding-top: 220px;
-  padding-bottom: 130px;
-}
-.why-us .why-us-bg {
-  position: absolute;
-  top: 205px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 70px;
-  z-index: -1;
-}
-.why-us .why-us-bg .why-us-word {
-  font-size: 12.5vw;
-  font-weight: 600;
-  text-align: center;
-  line-height: 1;
-  text-transform: uppercase;
-  color: #000;
-  opacity: 0.03;
-  text-shadow: 9px 17px 25px rgba(0, 0, 0, 0.12);
-}
-.why-us .missions p {
-  font-size: 14px;
 }
 
 .about-us-thumbnail {
@@ -2725,6 +2707,8 @@ ul li {
   position: relative;
   z-index: 1;
   background-color: #0d1212;
+  padding-top: 17px !important;
+  padding-bottom: 25px !important;
 }
 
 .cta-content {
@@ -2758,6 +2742,11 @@ ul li {
   margin-bottom: 30px;
 }
 
+@media (max-width: 591px) {
+  .cta-content h2 {
+    font-size: 16px !important;
+  }
+}
 /* :: 16.0 Team CSS */
 .single-team-member-area {
   position: relative;
@@ -3015,11 +3004,13 @@ ul li {
   position: relative;
   z-index: 1;
   background-color: #f2f4f5;
+  padding-top: 20px !important;
 }
 
 .single-footer-widget {
   position: relative;
   z-index: 1;
+  margin-bottom: 15px !important;
 }
 .single-footer-widget .widget-title {
   color: #232323;
@@ -3032,6 +3023,7 @@ ul li {
   color: #666666;
   font-size: 16px;
   line-height: 1.8;
+  text-transform: capitalize;
 }
 .single-footer-widget .footer-social-info a {
   display: inline-block;
@@ -3165,11 +3157,6 @@ ul li {
   letter-spacing: 1px;
   opacity: 0.6;
 }
-@media (maxi-width: 591px) {
-  .contact-background .contact-us-wrapper .contact-us .contact-bg {
-    width: 125% !important;
-  }
-}
 .contact-background .icons-holder {
   display: flex;
   align-items: center;
@@ -3179,6 +3166,11 @@ ul li {
   opacity: 0.6;
 }
 
+@media (maxi-width: 991px) {
+  .contact-background .contact-us-wrapper .contact-us .contact-bg {
+    display: none !important;
+  }
+}
 @media (min-width: 1800px) {
   .contact-us-wrapper {
     padding-bottom: 150px;

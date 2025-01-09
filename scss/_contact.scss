@@ -37,15 +37,6 @@
       }
     }
   }
-  @media(maxi-width:591px){
-     .contact-us-wrapper {
-      .contact-us {
-        .contact-bg {
-          width: 125% !important;
-        }
-      }
-    }
-  }
   .icons-holder {
     display: flex;
     align-items: center;
@@ -56,6 +47,17 @@
       opacity: 0.6;
     }
   }
+}
+@media(maxi-width:991px){
+  .contact-background {
+    .contact-us-wrapper{
+      .contact-us {
+        .contact-bg {
+          display: none !important;
+        }
+      }
+    }
+  }   
 }
 @media (min-width: 1800px) {
   .contact-us-wrapper {
