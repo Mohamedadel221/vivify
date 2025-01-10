@@ -199,7 +199,7 @@
       text-align: center;
       line-height: 1;
       text-transform: uppercase;
-      color: #000;
+      color: #fff;
       opacity: 0.09;
       text-shadow: 9px 17px 25px rgba(0, 0, 0, 0.12);
     }
@@ -331,12 +331,18 @@
     display: none;
     }
   }
+  .hero-bg-2-mopile {
+    display: none;
+  }
 }
 @media(max-width:768px) {
   .our-projects {
     .projects-desktop {
-    display: none;
+    display: none !important;
     }
+  }
+  .hero-bg2 {
+    display: none !important;
   }
 }
 /*show-and-hide-desktop-mopile*/

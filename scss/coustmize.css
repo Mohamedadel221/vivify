@@ -143,7 +143,7 @@ html {
 }
 @media (max-width: 591px) {
   .cta-content h2 {
-    font-size: 16px !important;
+    font-size: 18.7px !important;
   }
 }
 /*section top footer*/
@@ -151,4 +151,10 @@ html {
   .contact-bg {
     display: none !important;
   }
-}/*# sourceMappingURL=coustmize.css.map */
+}
+/*background-projcets-page*/
+.bg-projects-page {
+  background: #000 !important;
+}
+
+/*background-projcets-page*//*# sourceMappingURL=coustmize.css.map */

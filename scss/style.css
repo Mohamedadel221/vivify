@@ -427,6 +427,11 @@ ul li {
   opacity: 1;
 }
 
+@media (min-width: 1024px) {
+  .wrapper {
+    width: 700px !important;
+  }
+}
 .cssload-loader {
   width: 49px;
   height: 49px;
@@ -480,7 +485,7 @@ ul li {
 .section-heading {
   position: relative;
   z-index: 1;
-  margin-bottom: 50px;
+  margin-bottom: 12px;
 }
 .section-heading h2 {
   font-size: 48px;
@@ -1513,7 +1518,7 @@ ul li {
   text-align: center;
   line-height: 1;
   text-transform: uppercase;
-  color: #000;
+  color: #fff;
   opacity: 0.09;
   text-shadow: 9px 17px 25px rgba(0, 0, 0, 0.12);
 }
@@ -1633,10 +1638,16 @@ ul li {
   .our-projects .projects-mopile {
     display: none;
   }
+  .hero-bg-2-mopile {
+    display: none;
+  }
 }
 @media (max-width: 768px) {
   .our-projects .projects-desktop {
-    display: none;
+    display: none !important;
+  }
+  .hero-bg2 {
+    display: none !important;
   }
 }
 /*show-and-hide-desktop-mopile*/
@@ -2733,7 +2744,7 @@ ul li {
 }
 @media only screen and (max-width:767px) {
   .cta-content h2 {
-    font-size: 20px !important;
+    font-size: 19px !important;
   }
 }
 .cta-content h6 {

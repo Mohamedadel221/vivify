@@ -11,7 +11,6 @@
   @include align-items-center;
   @include justify-content-center;
 }
-
 .body-wrapper{
   background-color: $primary;
 }
@@ -32,7 +31,11 @@
     }
   }
 }
-
+@media (min-width:1024px) {
+  .wrapper {
+    width:700px !important;
+  }
+}
 .cssload-loader {
   width: 49px;
   height: 49px;
