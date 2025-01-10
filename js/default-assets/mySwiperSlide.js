@@ -8,8 +8,8 @@ var swiper = new Swiper(".swiper-containers", {
     768: { slidesPerView: 3, spaceBetween: 0 },
     1024: { slidesPerView: 3, spaceBetween: 0 },
   },
-  // autoplay:{
-  //   delay:1500,
-  // },
+  autoplay:{
+    delay:1500,
+  },
   loop:true,
 });
