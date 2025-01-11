@@ -21,20 +21,22 @@
     @media #{$breakpoint-md} {
       font-size: 36px;
     }
-    @media #{$breakpoint-xs} {
-      font-size: 19px !important;
-    }
+    // @media #{$breakpoint-xs} {
+    //   font-size: 19px !important;
+    // }
   }
   h6 {
-    font-size: 18px;
+    font-size: 22px;
     color: $white;
     margin-bottom: 30px;
+    font-family: "BrutalMilkText" !important;
+    font-weight: 400;
   }
 }
-@media (max-width:591px) {
+@media (max-width: 591px) {
   .cta-content {
     h2 {
-      font-size: 16px !important;
+      font-size: 30px !important;
     }
   }
 }

@@ -1281,7 +1281,7 @@ ul li {
 @media (max-width: 991px) {
   .slider-text {
     position: relative;
-    top: 20%;
+    top: 35%;
     left: unset;
   }
   .slider-text .slide-description {
@@ -1292,11 +1292,11 @@ ul li {
   }
   .slider-contact {
     bottom: 2%;
-    left: 2%;
+    left: -4%;
     gap: 40px;
   }
   .slide-animation {
-    top: 55%;
+    top: 60%;
     right: unset;
     left: 4%;
   }
@@ -2742,20 +2742,17 @@ ul li {
     font-size: 36px;
   }
 }
-@media only screen and (max-width:767px) {
-  .cta-content h2 {
-    font-size: 19px !important;
-  }
-}
 .cta-content h6 {
-  font-size: 18px;
+  font-size: 22px;
   color: #ffffff;
   margin-bottom: 30px;
+  font-family: "BrutalMilkText" !important;
+  font-weight: 400;
 }
 
 @media (max-width: 591px) {
   .cta-content h2 {
-    font-size: 16px !important;
+    font-size: 30px !important;
   }
 }
 /* :: 16.0 Team CSS */

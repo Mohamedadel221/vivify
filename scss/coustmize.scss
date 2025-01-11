@@ -59,10 +59,17 @@ html {
     padding-top: 100px;
     padding-bottom: 16px;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 767px) {
     .about-us-content {
       h2 {
         display: none !important;
+      }
+    }
+  }
+  @media (max-width: 991px) {
+    .about-us-content {
+      h2 {
+      font-size: 23px !important;
       }
     }
   }
@@ -79,6 +86,11 @@ html {
   .slider-text {
     top: 25% !important;
   }
+  @media (max-width:360px) {
+    .slider-text {
+      top: 15% !important;
+    }
+  } 
   /*center text-slide*/
   /*coustmize navbar-logo*/
   .nav-brand svg {
@@ -125,27 +137,8 @@ html {
 /*section top footer*/
 .cta-content {
   h2 {
-    font-family: "BrutalMilkText" !important;
-    font-weight: 700;
-  }
-  h6 {
-    font-size: 17px;
-    font-family: "BrutalMilkText" !important;
-    font-weight: 400;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .cta-content {
-    h2 {
-      font-size: 20px;
-    }
-  }
-}
-@media (max-width: 591px) {
-  .cta-content {
-    h2 {
-      font-size: 18.7px !important;
-    }
+    font-family: "BrutalMilk" !important;
+    font-weight: 600;
   }
 }
 /*section top footer*/

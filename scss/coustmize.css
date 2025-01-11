@@ -65,9 +65,14 @@ html {
   /*why-us*/
   /*why-us*/
 }
-@media (max-width: 991px) and (max-width: 991px) {
+@media (max-width: 991px) and (max-width: 767px) {
   .about-us-content h2 {
     display: none !important;
+  }
+}
+@media (max-width: 991px) and (max-width: 991px) {
+  .about-us-content h2 {
+    font-size: 23px !important;
   }
 }
 @media (max-width: 991px) {
@@ -83,11 +88,18 @@ html {
   }
   /*center text-slide*/
   /*coustmize navbar-logo*/
+  /*coustmize navbar-logo*/
+}
+@media (max-width: 767px) and (max-width: 360px) {
+  .slider-text {
+    top: 15% !important;
+  }
+}
+@media (max-width: 767px) {
   .nav-brand svg {
     width: 120px;
     margin-left: -30px;
   }
-  /*coustmize navbar-logo*/
   .classy-navbar-toggler .navbarToggler {
     margin-right: -14px;
   }
@@ -127,25 +139,10 @@ html {
 /*show and hide slider-content mopile and desktop*/
 /*section top footer*/
 .cta-content h2 {
-  font-family: "BrutalMilkText" !important;
-  font-weight: 700;
-}
-.cta-content h6 {
-  font-size: 17px;
-  font-family: "BrutalMilkText" !important;
-  font-weight: 400;
+  font-family: "BrutalMilk" !important;
+  font-weight: 600;
 }
 
-@media only screen and (max-width: 767px) {
-  .cta-content h2 {
-    font-size: 20px;
-  }
-}
-@media (max-width: 591px) {
-  .cta-content h2 {
-    font-size: 18.7px !important;
-  }
-}
 /*section top footer*/
 @media (max-width: 991px) {
   .contact-bg {
