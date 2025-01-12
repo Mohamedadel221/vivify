@@ -4,6 +4,14 @@ html {
   overflow-y: auto !important;
   overflow-x: hidden;
 }
+/*video -desktop-top*/
+@media (max-width: 767px) {
+  .vivify-about-us-area {
+    .video-home-page {
+      display: none !important;
+    }
+  }
+}
 /*swiper0button*/
 .swiper-containers {
   .swiper-button-next,
@@ -30,6 +38,7 @@ html {
 .horizontal-item .slider-bg {
   width: 110% !important;
 }
+
 /*swiper0button*/
 /*spacing*/
 .mb-15 {
@@ -69,7 +78,7 @@ html {
   @media (max-width: 991px) {
     .about-us-content {
       h2 {
-      font-size: 23px !important;
+        font-size: 23px !important;
       }
     }
   }
@@ -86,11 +95,11 @@ html {
   .slider-text {
     top: 25% !important;
   }
-  @media (max-width:360px) {
+  @media (max-width: 360px) {
     .slider-text {
       top: 15% !important;
     }
-  } 
+  }
   /*center text-slide*/
   /*coustmize navbar-logo*/
   .nav-brand svg {

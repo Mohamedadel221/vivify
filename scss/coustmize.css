@@ -5,6 +5,12 @@ html {
   overflow-x: hidden;
 }
 
+/*video -desktop-top*/
+@media (max-width: 767px) {
+  .vivify-about-us-area .video-home-page {
+    display: none !important;
+  }
+}
 /*swiper0button*/
 .swiper-containers .swiper-button-next,
 .swiper-containers .swiper-button-prev {

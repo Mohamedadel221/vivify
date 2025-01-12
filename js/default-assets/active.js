@@ -8,14 +8,14 @@
   // *******************************
   mona_window.on("load", function () {
     setTimeout(() => {
-      $(".preloader").fadeOut("3000", function () {
+      $(".preloader").fadeOut("100", function () {
         $(this).remove();
         // if (mona_window.width() > 767) {
         // }
         new WOW().init();
-        $("#content").fadeIn(500);
+        $("#content").fadeIn(0);
         if ($(".swiper").length) {
-          const autoplayDelay = 5000; // Swiper autoplay delay in milliseconds (5 seconds)
+          const autoplayDelay = 4000; // Swiper autoplay delay in milliseconds (5 seconds)
           const swiper = new Swiper(".swiper", {
             slidesPerView: 1,
             effect: "fade",
@@ -159,7 +159,7 @@
           });
         }
       });
-    }, 4500);
+    }, 3400);
   });
 
   mona_window.on("load", function () {
