@@ -37,6 +37,11 @@ html {
   width: 110% !important;
 }
 
+@media (min-width: 1600px) {
+  .swiper-containers .swiper-slide {
+    width: 400px !important;
+  }
+}
 /*swiper0button*/
 /*spacing*/
 .mb-15 {

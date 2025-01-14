@@ -7,9 +7,10 @@ var swiper = new Swiper(".swiper-containers", {
     640: { slidesPerView: 2, spaceBetween: 10 },
     768: { slidesPerView: 3, spaceBetween: 10 },
     1024: { slidesPerView: 4, spaceBetween: 0 },
+    1025: { slidesPerView: 4, spaceBetween: 0 },
   },
-  autoplay:{
-    delay:1500,
+  autoplay: {
+    delay: 1500,
   },
-  loop:true,
+  loop: true,
 });

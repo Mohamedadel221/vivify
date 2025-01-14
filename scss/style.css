@@ -1415,7 +1415,6 @@ ul li {
 }
 
 .horizontal-item {
-  position: relative;
   transition: all ease 0.3s;
 }
 .horizontal-item .slider-bg {
@@ -1522,7 +1521,8 @@ ul li {
   opacity: 0.09;
   text-shadow: 9px 17px 25px rgba(0, 0, 0, 0.12);
 }
-.main-projects h3, .main-projects p {
+.main-projects h3,
+.main-projects p {
   margin-left: 8px;
 }
 
