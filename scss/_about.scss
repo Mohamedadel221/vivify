@@ -25,20 +25,20 @@
       text-shadow: 9px 17px 25px rgba(0, 0, 0, 0.12);
     }
   }
-  .about-content{
-    p{
+  .about-content {
+    p {
       letter-spacing: 1px;
     }
   }
 }
-@media(max-width:991px) {
+@media (max-width: 991px) {
   .about-us {
     .about-bg {
       display: none;
     }
   }
 }
-.three-collection{
+.three-collection {
   padding-left: 80px;
   padding-right: 80px;
 }
@@ -232,9 +232,9 @@
     max-width: 70px;
     width: 70px;
 
-    i {
-      color: $primary;
-      font-size: 42px;
+    img {
+      width: 40px;
+      height: 40px;
     }
   }
 
@@ -275,12 +275,12 @@
     }
   }
 }
-@media (max-width: 991px){
+@media (max-width: 991px) {
   .about-us {
     padding-top: 110px;
     padding-bottom: 100px;
   }
-  .three-collection{
+  .three-collection {
     padding-left: 0px;
     padding-right: 0px;
   }

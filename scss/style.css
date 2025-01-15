@@ -2221,9 +2221,9 @@ ul li {
   max-width: 70px;
   width: 70px;
 }
-.single-benefits-area .benefits-icon i {
-  color: #0d1212;
-  font-size: 42px;
+.single-benefits-area .benefits-icon img {
+  width: 40px;
+  height: 40px;
 }
 .single-benefits-area .benefits-content h5 {
   font-size: 22px;
